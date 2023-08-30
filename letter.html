@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Cinzel+Decorative:700" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #A9A9A9;
+            font-family: 'Cinzel Decorative', cursive;
+        }
+
+        .wrapper-parent{
+            padding: 0 5px;
+        }
+        .wrapper {
+            background-color: #54D454;
+            height: 180px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header a {
+            color: #000;
+            text-transform: uppercase;
+            text-decoration: none;
+            margin: 0 auto;
+            font-size: 20px;
+            text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+        }
+
+        nav {
+            background-color: #29E929;
+            width: 95%;
+            margin: 0 auto;
+            font-weight: 800;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 140px;
+            font-size: 18px;
+            text-transform: uppercase;
+            padding: 10px;
+        }
+        main{
+            display: flex;
+            background-color: #54D454;
+            padding: 10px;
+        }
+        article{
+            border-radius: 5px;
+            background-color: #29E929;
+        }
+        article h2{
+            text-align: center;
+            font-size: 40px;
+        }
+        article p{
+            padding: 10px;
+            font-family: 'Roboto Condensedd', sans-serif;
+        }
+        aside{
+            margin-left: 10px;
+            background-color: #29E929;
+            border-radius: 5px;
+        }
+        aside h2{
+            font-size: 30px;
+            text-align: center;
+        }
+        .group-1{
+            padding: 10px;
+            display: flex;
+            margin: 0;
+        }
+        .group-1 img{
+            width: 150px;
+        }
+
+        .group-2{
+            padding: 10px;
+            display: flex;
+            margin: 0;
+        }
+        .group-2 img{
+            width: 150px;
+            height: 150px;
+        }
+        footer{
+            background-color: #54D454;
+            border-radius: 5px;
+            font-family: 'Toboto Condensedd', sans-serif;
+        }
+        footer p{
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper-parent">
+    <div class="wrapper">
+        <header>
+            <a href="#">
+                <h1>birdwatching</h1>
+            </a>
+            <img src="images/pngwing.com.png" alt="">
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Get Started</li>
+                <li>photos</li>
+                <li>gear</li>
+                <li>forum</li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <main>
+        <article>
+            <h2>Welcome</h2>
+            <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to
+                learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or
+                an expert wanting to share ideas, tips, and photos with other like-minded people.</p>
+            <p>So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!
+            </p>
+        </article>
+        <aside>
+            <h2>Favourite
+                <br>
+                <span>Photos</span>
+            </h2>
+            <div class="group-1">
+                <img src="images/1.jpg" alt="bird-image">
+                <img src="images/3.jpg" alt="bird-image">
+            </div>
+            <div class="group-2">
+                <img src="images/2.jpg" alt="bird-image">
+                <img src="images/4.jpg" alt="bird-image">
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>This fake website example is CC - any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.        </p>
+        <p><a href="#">Dove icon</a> by Lorc.</p>
+    </footer>
+</div>
+</body>
+
+</html>
